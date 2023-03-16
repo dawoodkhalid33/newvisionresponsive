@@ -1,0 +1,472 @@
+body{
+    margin: 0px;
+    font-family: 'Jost', sans-serif;
+}
+.sec1{
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 12rem;
+    background-image:  url(bgimage.png);
+    background-blend-mode: multiply;
+    background-size: 1040px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: #058ACC;
+}
+
+.nav1>img{
+    float: left;
+    height: 1.5rem;
+}
+.nav1>i{
+    float: right;
+    color: white;
+    font-size: 1.7rem;
+}
+h1{
+    margin-top: 6rem;
+    font-size: 1.7rem;
+    font-weight: 450;
+    width: 80%;
+    margin-left: 0px;
+    line-height: 2rem;
+}
+.nav2>img{
+    height: 2rem;
+    float: left;
+    margin-right: 5rem;
+    margin-left: 3.2rem;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links>a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+.sec1>button{
+    margin-top: 2rem;
+    background-color: #CEA93A;
+    padding: 1rem 2rem;
+    color: white;
+    border: none;
+}
+.sec2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.sec2>button{
+    margin-bottom: 3rem;
+}
+button{
+    background-color: #0D89CA;
+    padding: 1rem 2.5rem;
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.about-left>p{
+    margin-bottom: 2.5rem;
+}
+.about-right>img{
+    width: 100%;
+    margin-bottom: 6rem;
+    margin-top: 3rem;
+}
+.sec3{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.offer>img{
+    width: 80%;
+    
+}
+.offer-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    
+}
+.offer{
+    width: 42%;
+    margin-bottom: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem 0px;
+    background: rgba(162, 184, 193, 0.05);
+}
+.offer>h3{
+    font-size: 1rem;
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+.offer>p{
+    margin:0px;
+}
+.offer1{
+    border-top: 1rem solid #EB7B37;
+}
+.offer2{
+    border-top: 1rem solid #FAD606;
+}
+.offer3{
+    border-top: 1rem solid #C6A136;
+}
+.offer4{
+    border-top: 1rem solid #A2B8C1;
+}
+.partner-pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.partner-pics>img{
+    width: 21%;
+    padding-bottom: 2rem;
+}
+.sec4>p{
+    text-align: left;
+}
+.test1{
+    background-color: rgb(252, 251, 251);
+    background-size: 100%;
+    filter: drop-shadow(0px 0px 10px rgba(162, 184, 193, 0.5));
+    margin-bottom: 2rem;
+}
+.test1>h2{
+    color: rgb(238, 183, 32);
+}
+.test1>p{
+    width: 70%;
+    margin: auto;
+    height: 50%;
+    margin-bottom: 3rem;
+}
+.test-rect{
+    background-color: #A2B8C1;
+    /* height: 100px; */
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 100;
+    padding-bottom: 3rem;
+}
+
+#test1-pic{
+    width: 4rem;
+    margin-top: -2rem;
+}
+.blog-card{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+}
+.blog-card>img{
+    width: 100%;
+}
+.blog-card>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-bottom: 2.5px solid #0D89CA;
+    padding-bottom: 9px;
+    margin-top: 3rem;
+}
+.blogs>button{
+    background-color: white;
+    color: black;
+    padding: 1rem 4rem;
+    border: 1px solid rgb(50, 163, 255);
+    font-size: 1rem;
+}
+.blog-info{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+#date{
+    float: left;
+    color: #A88427;
+    font-size: 0.7rem;
+}
+#time{
+    float: right;
+    color: #A88427;
+    font-size: 0.7rem;
+}
+.contact-card{
+    background-color: rgb(252, 251, 251);
+    background-size: 100%;
+    filter: drop-shadow(0px 0px 10px rgba(162, 184, 193, 0.5));
+    text-align: left;
+    padding: 1.5rem 4rem;
+    border-radius: 9px;
+    margin-bottom: 2rem;
+}
+.contact-card>h3{
+    text-align: center;
+}
+.contact-card>input,textarea{
+    width: 90%;
+    display: block;
+    margin-bottom: 2rem;
+    padding: 0.7rem;
+    background-color: rgb(243, 243, 243);
+    border: none;
+}
+.contact-card>button{
+    padding: 1.2rem 4rem;
+}
+.contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.location{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.location>p{
+    display: inline;
+    margin-left: 1rem;
+}
+.social{
+    text-align: center;
+    margin-top: 4rem;
+}
+.social>img{
+    width: 40%;
+}
+.blue{
+    color: #109ad1;
+    font-size: 2rem;
+}
+span{
+    color: black;
+    font-size: 2.5rem;
+    position: absolute;
+    margin-left: -30%;
+}
+#map{
+    width: 100%;
+    margin-left: 1rem;
+}
+footer{
+    background-color: rgba(0, 28, 39, 0.75);
+    font-size: 10%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 9rem;
+}
+footer>p{
+    margin: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+    .nav2{
+        display: none;
+    }
+    .contact-info>img{
+        display: none;
+    }   
+    .offer-cards {
+        display: flex;
+       
+    }
+}
+@media screen and (min-width:651px) and (max-width: 1040px){
+    .nav2{
+        visibility: visible;
+    }
+    .nav2>img{
+        margin-left: 1rem;
+    }
+    .nav1{
+        display: none;
+    }
+    a{
+        font-size: 0.7rem;
+    }
+    .sec1>button{
+        background-color: #A88427;
+        padding: 1rem 3rem;
+        color: white;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 8rem;
+    }
+    .contact-info>img{
+        display: none;
+    }  
+    h1{
+        font-size: 2.5rem;
+        line-height: 4rem;
+        font-weight: 400;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .sec1>h1{
+        margin-left: 1rem;
+    }
+    .sec2{
+        width: 80%;
+        margin: auto;
+    }
+    .offer{
+        width: 40%;
+    }
+    #date,#time{
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (min-width: 1040px){
+    .nav1{
+        display: none;
+    }
+    h1{
+        font-size: 3.6rem;
+        margin-left: 3.2rem;
+        width: 60%;
+        line-height: 5rem;
+        font-weight: 400;
+        text-align: left;
+        margin-top: 10rem;
+    }
+    h2{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    p{
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    .sec1{
+        text-align: center;
+        background-size: 100% 100%;
+    }
+    .sec1>button{
+        background-color: #A88427;
+        padding: 1rem 3rem;
+        color: white;
+        border: none;
+    }
+    .aboutus{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: 3rem auto;
+        align-items: stretch;
+
+    }
+    .about-left>h2{
+        text-align: left;
+        margin-bottom: 3rem;
+    }
+    .aboutus>button{
+        visibility: hidden;
+    }
+    .offer-cards{
+        flex-wrap: nowrap;
+        margin-top: 5rem;
+        justify-content: space-around;
+    }
+    .offer{
+        width: 20%;
+    }
+    
+    .partners>p{
+        text-align: center;
+    }
+    .partner-pics>img{
+        width: 10%;
+    }
+    .testimonials>h2{
+        margin-bottom: 5rem;
+    }
+    .test-cards{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3rem;
+    }
+    .test-cards>.test1{
+        width: 30%;
+    }
+    .test1>p{
+        margin-bottom: 11rem;
+    }
+    .test-rect{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .blog-cards{
+        display: flex;
+        justify-content: space-around;
+    }
+    .blog-card{
+        box-shadow: none;
+    }
+    .blog-card>a{
+        border: 0px;
+    }
+    .blog1{
+        width: 48%;
+        padding-bottom: 3rem;
+        border-bottom: 0.8rem solid #EB7B37;
+        margin-top: 4rem;
+    }
+    .blog2{
+        width: 48%;
+        padding-bottom: 3rem;
+        border-bottom: 0.8rem solid #FAD606;
+        margin-top: 4rem;
+    }
+    .contact-flex{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+    }
+    .location{
+        width: 30%;
+    }
+    .location>p{
+        display: block;
+    }
+    .social>img{
+        width: 13rem;
+    }
+    .small-p{
+        font-size: 0.8rem;
+    }
+    .contact-info>img{
+        width: 40%;
+        margin-top: -2rem;
+        height: 60%;
+    }
+    .contact-card{
+        width: 100%;
+    }
+    #date,#time{
+        font-size: 1.2rem;
+    }
+}
+
